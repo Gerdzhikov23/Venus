@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1336"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Телец.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1338"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="6.7056134"
+     inkscape:cy="508.2855"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1333" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;stroke:#e0e0ea;stroke-width:12.3631;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path2424"
+       cx="105"
+       cy="157.0309"
+       r="28.007408" />
+    <path
+       style="display:none;fill:none;stroke:#e0e0ea;stroke-width:10.9502;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 55.786063,90.715617 C 83.740526,89.208821 72.623419,117.40189 91.40568,125.45332 l 28.19395,-1.68548 c 14.40672,-3.65324 1.89233,-34.304583 29.23688,-33.396384"
+       id="path5532"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#e0e0ea;stroke-width:12.761;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 68.386804,89.969914 c 29.43319,4.630536 1.381248,25.838736 25.699526,35.307776 h 21.82734 c 22.33108,-9.38617 -1.11556,-29.556009 23.27529,-36.017455"
+       id="path5534"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

@@ -1,0 +1,429 @@
+body
+{
+    background-color: #071117;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: rgb(224, 224, 234);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+#solar-system
+{
+    display: flex;
+    width: 100rem;
+    height: 100rem;
+    justify-content: center;
+    align-items: center;
+}
+#sun
+{
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 10rem;
+    border-radius: 100vh;
+    background-color: rgb(235, 208, 60);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.planet
+{
+    aspect-ratio: 1/1;
+    border-radius: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle
+{
+    aspect-ratio: 1/1;
+    border-radius: 100vh;
+    border: solid rgba(240, 248, 255, 0.025);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes orbit1
+{
+    from{transform: rotate(70deg)translateX(7.5rem) rotate(-70deg);}
+    to{transform: rotate(430deg)translateX(7.5rem) rotate(-430deg);}
+}
+@keyframes orbit2
+{
+    from{transform: rotate(0deg)translateX(10rem) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(10rem)rotate(-360deg);}
+}
+@keyframes orbit3
+{
+    from{transform: rotate(10deg)translateX(12.5rem)rotate(10deg);}
+    to{transform: rotate(370deg)translateX(12.5rem)rotate(-370deg);}
+}
+@keyframes orbit4
+{
+    from{transform: rotate(300deg)translateX(15rem) rotate(300deg);}
+    to{transform: rotate(660deg)translateX(15rem)rotate(-660deg);}
+}
+@keyframes orbit5
+{
+    from{transform: rotate(150deg)translateX(17.5rem) rotate(150deg);}
+    to{transform: rotate(510deg)translateX(17.5rem)rotate(-510deg);}
+}
+@keyframes orbit6
+{
+    from{transform: rotate(270deg)translateX(20rem) rotate(270deg);}
+    to{transform: rotate(630deg)translateX(20rem)rotate(-630deg);}
+}
+@keyframes orbit7
+{
+    from{transform: rotate(0deg)translateX(22.5rem) rotate(0deg);}
+    to{transform: rotate(360deg)translateX(22.5rem)rotate(-360deg);}
+}
+@keyframes orbit8
+{
+    from{transform: rotate(180deg)translateX(25rem) rotate(180deg);}
+    to{transform: rotate(540deg)translateX(25rem)rotate(-540deg);}
+}
+#mercury
+{
+    background-color: #EA9689;
+    width: 1rem;
+    left: 47%;
+    top: 47%;
+    animation: orbit1 linear 50s infinite;
+}
+#venus
+{
+    background-color: #F2D58A;
+    width: 1.5rem;
+    left: 46%;
+    top: 46%;
+    animation: orbit2 linear 75s infinite;
+    transform: translateX(10rem);
+    transition: transform 700ms;
+}
+#earth
+{
+    background-color: #48b2c9;
+    width: 2rem;
+    left: 46%;
+    top: 46%;
+    animation: orbit3 linear 102s infinite;
+}
+#mars
+{
+    background-color: #D12C33;
+    width: 1.7rem;
+    left: 47%;
+    top: 47%;
+    animation: orbit4 linear 115s infinite;
+}
+#jupiter
+{
+    background-color: #CB8353;
+    width: 3rem;
+    left: 46%;
+    top: 46%;
+    animation: orbit5 linear 139s infinite;
+}
+#saturn
+{
+    background-color: #FCE86D;
+    width: 2.7rem;
+    left: 47%;
+    top: 47%;
+    animation: orbit6 linear 148s infinite;
+}
+#uranus
+{
+    background-color: #8BD0ED;
+    width: 2.5rem;
+    left: 47%;
+    top: 47%;
+    animation: orbit7 linear 170s infinite;
+}
+#neptune
+{
+    background-color: #1F95D3;
+    width: 2.5rem;
+    left: 47.5%;
+    top: 47.5%;
+    animation: orbit8 linear 190s infinite;
+}
+.circle:nth-child(1)
+{
+    width: 15rem;
+}
+.circle:nth-child(2)
+{
+    width: 20rem;
+}
+.circle:nth-child(3)
+{
+    width: 25rem;
+}
+.circle:nth-child(4)
+{
+    width: 30rem;
+}
+.circle:nth-child(5)
+{
+    width: 35rem;
+}
+.circle:nth-child(6)
+{
+    width: 40rem;
+}
+.circle:nth-child(7)
+{
+    width: 45rem;
+}
+.circle:nth-child(8)
+{
+    width: 50rem;
+}
+
+
+#presentation
+{
+    display: none;
+}
+.slide
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+.part
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+.slide:nth-child(1)
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.typing
+{
+    display: none;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+    overflow: hidden;
+    left: 50%;
+    top: 5%;
+    width: 5.5ch;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+#headding2
+{
+    width: 17ch;
+}
+#headding3
+{
+    width: 9ch;
+}
+#headding4
+{
+    width: 9ch;
+}
+#headding5
+{
+    width: 18ch;
+}
+#headding6
+{
+    width: 7.5ch;
+}
+#headding7
+{
+    width: 3ch;
+}
+#headding8
+{
+    width: 13.5ch;
+}
+#headding9
+{
+    width: 22ch;
+}
+#headding4, #headding5, #headding6
+{
+    position: relative;
+    text-align: left;
+    transform: translate(0%, 0%);
+    margin-bottom: auto;
+}
+.infotext
+{
+    display: flex;
+    position: relative;
+    width: auto;
+}
+.infotext1
+{
+    font-size: 2.3rem;
+    width: 33rem;
+    text-align: center;
+    justify-content: center;
+}
+.infotext2
+{
+    font-size: 1.7rem;
+    text-align: center;
+    justify-content: center;
+}
+#info2, #info3
+{
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}
+#info21, #info22, #info31, #info32
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#info21
+{
+    left: 20%;
+}
+#info22
+{
+    left: 83%;
+}
+#info31
+{
+    left: 20%;
+}
+#info32
+{
+    left: 83%;
+}
+#info
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#venus-main
+{
+    aspect-ratio: 1/1;
+    width: 1.5rem;
+    border-radius: 100vh;
+    aspect-ratio: 1/1;
+    background: url("venus.png");
+    position: absolute;
+    background-size: cover;
+    background-position: -6000px 0px;
+    animation: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-width: .2rem;
+    opacity: 0;
+    border-color: #3d2717;
+}
+#sun-main
+{
+    opacity: 0;
+    aspect-ratio: 1/1;
+    position: absolute;
+    width: 100rem;
+    background-color: rgb(235, 208, 60);
+    border-radius: 100vh;
+    top: 6rem;
+    left: 116.5rem;
+    transform: translate(-50%, -50%);
+}
+#line
+{
+    position: absolute;
+    width: 0rem;
+    height: .4rem;
+    background-color: rgb(224, 224, 234);
+    left: 0%;
+    top: 110%;
+    transform-origin: center;
+}
+.line-small
+{
+    position: absolute;
+    width: .4rem;
+    height: 0rem;
+    background-color: rgb(224, 224, 234);
+    border-radius: 100vh;
+}
+.line-small:nth-child(1)
+{
+    left: -1%;
+    top: -150%;
+}
+.line-small:nth-child(2)
+{
+    left: 100%;
+    top: -150%;
+}
+#diameter
+{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(224, 224, 234);
+    opacity: 0;
+}
+@keyframes venus
+{
+    0%{background-position: 0px 0px};
+    100%{background-position: -6000px 0px};
+}
+#taurus, #libra
+{
+    position: absolute;
+    width: 40rem;
+    opacity: 0;
+}
+#taurus
+{
+    width: 35rem;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+#libra
+{
+    top: 43%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+@keyframes typing
+{
+    from {
+      width: 0
+    }
+}
